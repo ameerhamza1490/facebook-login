@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2% auto;
+  width: 75%;
+  height: 80vh;
+}
+
+img {
+  height: 106px;
+  margin: -28px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+}
+
+#section {
+  /* width: 32%; */
+  padding: 15px;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+  line-height: 30px;
+}
+
+
+#login-form {
+  background-color: white;
+  /* width: 100%; */
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  line-height: 30px;
+
+}
+
+#form {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.input-field {
+  width: 330px;
+  font-size: 17px;
+  margin-bottom: 15px;
+  padding: 14px 16px;
+  outline: none;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+}
+
+#login-btn {
+  width: 100%;
+  font-size: 20px;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+#login-btn:hover {
+  background-color: #055ed1;
+}
+
+#link {
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  display: block;
+  margin: 15px 0;
+  color: #195de6;
+  font-size: 15px;
+}
+
+#btn {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#btn:hover {
+  background-color: #32941e;
+}
+
+p {
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+#create-page {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#create-page:hover {
+  text-decoration: underline;
+}
